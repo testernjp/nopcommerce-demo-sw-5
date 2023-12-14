@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T20:38:32 GMT" name="grouptestsuite" finished-at="2023-12-11T20:38:53 GMT" duration-ms="20439">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="verifyThatUserShouldLogOutSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-11T20:38:32 GMT" name="Grouping Test" finished-at="2023-12-11T20:38:53 GMT" duration-ms="20439">
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:33 GMT" name="setUp" finished-at="2023-12-11T20:38:38 GMT" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:38 GMT" name="inIt" finished-at="2023-12-11T20:38:38 GMT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:38 GMT" name="userShouldNavigateToLoginPageSuccessFully" finished-at="2023-12-11T20:38:39 GMT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:39 GMT" name="tearDown" finished-at="2023-12-11T20:38:39 GMT" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:39 GMT" name="setUp" finished-at="2023-12-11T20:38:42 GMT" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:42 GMT" name="inIt" finished-at="2023-12-11T20:38:42 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:42 GMT" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" finished-at="2023-12-11T20:38:44 GMT" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:44 GMT" name="tearDown" finished-at="2023-12-11T20:38:44 GMT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:44 GMT" name="setUp" finished-at="2023-12-11T20:38:47 GMT" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:47 GMT" name="inIt" finished-at="2023-12-11T20:38:47 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:47 GMT" name="verifyThatUserShouldLogOutSuccessFully" finished-at="2023-12-11T20:38:48 GMT" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogOutSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:48 GMT" name="tearDown" finished-at="2023-12-11T20:38:48 GMT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:48 GMT" name="setUp" finished-at="2023-12-11T20:38:51 GMT" duration-ms="2644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:51 GMT" name="inIt" finished-at="2023-12-11T20:38:51 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:51 GMT" name="verifyTheErrorMessageWithInValidCredentials" finished-at="2023-12-11T20:38:53 GMT" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@79efed2d]" started-at="2023-12-11T20:38:53 GMT" name="tearDown" finished-at="2023-12-11T20:38:53 GMT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+    </test> <!-- Grouping Test -->
+  </suite> <!-- grouptestsuite -->
+</testng-results>
